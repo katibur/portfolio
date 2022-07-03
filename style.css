@@ -11,9 +11,9 @@ h1 {
     color: crimson;
 }
 
-section {
+.flex {
     display: flex;
-    margin: 100px;
+    margin bottom: 100px;
 }
 
 .half {
@@ -22,11 +22,11 @@ section {
 }
 
 .half img {
-    width: 55%;
+    width: 60%;
 }
 
 .half1 img {
-    width: 70%;
+    width: 80%;
 }
 
 .link-button {
@@ -47,4 +47,35 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+#ex {
+    padding-left: 2%;
+}
+
+.Experiences {
+    background-image: url(images/exp-bg.png);
+    background-position: top-left;
+    background-repeat: no-repeat;
+}
+
+.ex-items {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px cornflowerblue;
+}
+
+#full-stack-web-developer {
+    border-left: 7px solid yellowgreen;
+}
+
+#learner-web-developer {
+    border-left: 7px solid goldenrod;
+}
+
+footer {
+    text-align: center;
 }
